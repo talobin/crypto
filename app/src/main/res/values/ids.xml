@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="action_bar_activity_content" />
+    <item type="id" name="action_menu_divider" />
+    <item type="id" name="action_menu_presenter" />
+    <item type="id" name="home" />
+    <item type="id" name="np__decrement" />
+    <item type="id" name="np__increment" />
+    <item type="id" name="progress_circular" />
+    <item type="id" name="progress_horizontal" />
+    <item type="id" name="ptr_content" />
+    <item type="id" name="ptr_progress" />
+    <item type="id" name="ptr_text" />
+    <item type="id" name="summaryView" />
+    <item type="id" name="titleView" />
+    <item type="id" name="action_bar_root">false</item>
+    <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="action_context_bar">false</item>
+    <item type="id" name="split_action_bar">false</item>
+    <item type="id" name="action_bar_overlay_layout">false</item>
+    <item type="id" name="top_action_bar">false</item>
+    <item type="id" name="up">false</item>
+    <item type="id" name="action_bar_title">false</item>
+    <item type="id" name="action_bar_subtitle">false</item>
+    <item type="id" name="action_mode_close_button">false</item>
+    <item type="id" name="activity_chooser_view_content">false</item>
+    <item type="id" name="expand_activities_button">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="default_activity_button">false</item>
+    <item type="id" name="list_item">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="expanded_menu">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="shortcut">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="search_bar">false</item>
+    <item type="id" name="search_badge">false</item>
+    <item type="id" name="search_button">false</item>
+    <item type="id" name="search_edit_frame">false</item>
+    <item type="id" name="search_mag_icon">false</item>
+    <item type="id" name="search_plate">false</item>
+    <item type="id" name="search_src_text">false</item>
+    <item type="id" name="search_close_btn">false</item>
+    <item type="id" name="submit_area">false</item>
+    <item type="id" name="search_go_btn">false</item>
+    <item type="id" name="search_voice_btn">false</item>
+    <item type="id" name="valueView">false</item>
+    <item type="id" name="sufixView">false</item>
+    <item type="id" name="resetCheckpointButton">false</item>
+    <item type="id" name="prefixView">false</item>
+    <item type="id" name="content">false</item>
+    <item type="id" name="textView">false</item>
+    <item type="id" name="alarmEnabledView">false</item>
+    <item type="id" name="alarmTypeView">false</item>
+    <item type="id" name="alarmValueView">false</item>
+    <item type="id" name="alarmCheckPointView">false</item>
+    <item type="id" name="alarmSoundView">false</item>
+    <item type="id" name="alarmVibrateView">false</item>
+    <item type="id" name="alarmLedView">false</item>
+    <item type="id" name="alarmTTSView">false</item>
+    <item type="id" name="alarmView">false</item>
+    <item type="id" name="alarmTtsView">false</item>
+    <item type="id" name="checkBoxWrapper">false</item>
+    <item type="id" name="checkBox">false</item>
+    <item type="id" name="scrollView">false</item>
+    <item type="id" name="enabledView">false</item>
+    <item type="id" name="marketSpinner">false</item>
+    <item type="id" name="marketCautionView">false</item>
+    <item type="id" name="currencySpinnersAndDynamicPairsWrapper">false</item>
+    <item type="id" name="currencySpinnersWrapper">false</item>
+    <item type="id" name="currencySrcSpinner">false</item>
+    <item type="id" name="currencyDstSpinner">false</item>
+    <item type="id" name="dynamicCurrencyPairsWarningView">false</item>
+    <item type="id" name="dynamicCurrencyPairsInfoView">false</item>
+    <item type="id" name="dynamicCurrencyPairsNoSyncYetView">false</item>
+    <item type="id" name="checkSectionWrapper">false</item>
+    <item type="id" name="futuresContractTypeSpinner">false</item>
+    <item type="id" name="currencySrcSubunitSpinner">false</item>
+    <item type="id" name="currencyDstSubunitSpinner">false</item>
+    <item type="id" name="frequencySpinner">false</item>
+    <item type="id" name="notificationPriorityView">false</item>
+    <item type="id" name="checkTTSView">false</item>
+    <item type="id" name="alarmSectionWrapper">false</item>
+    <item type="id" name="alarmSectionHeader">false</item>
+    <item type="id" name="checkerAddAlarmFragmentWrapper">false</item>
+    <item type="id" name="checkerAddAlarmFragment">false</item>
+    <item type="id" name="alarmsListView">false</item>
+    <item type="id" name="donateBar">false</item>
+    <item type="id" name="progress_container_id">false</item>
+    <item type="id" name="list_container_id">false</item>
+    <item type="id" name="empty_id">false</item>
+    <item type="id" name="dragHandle">false</item>
+    <item type="id" name="currencyView">false</item>
+    <item type="id" name="switchContainer">false</item>
+    <item type="id" name="marketView">false</item>
+    <item type="id" name="invisibleView">false</item>
+    <item type="id" name="separator">false</item>
+    <item type="id" name="lastCheckView">false</item>
+    <item type="id" name="lastCheckValueView">false</item>
+    <item type="id" name="lastCheckTimeView">false</item>
+    <item type="id" name="switchView">false</item>
+    <item type="id" name="refreshImageWrapper">false</item>
+    <item type="id" name="refreshImageView">false</item>
+    <item type="id" name="statusView">false</item>
+    <item type="id" name="frequencyValuePicker">false</item>
+    <item type="id" name="frequencyTypePicker">false</item>
+    <item type="id" name="useGlobalFrequencyCheckBox">false</item>
+    <item type="id" name="marketNameView">false</item>
+    <item type="id" name="defaultView">false</item>
+    <item type="id" name="singleCheckView">false</item>
+    <item type="id" name="iconView">false</item>
+    <item type="id" name="notificationTitle">false</item>
+    <item type="id" name="notificationText">false</item>
+    <item type="id" name="refreshButton">false</item>
+    <item type="id" name="pref_num_picker">false</item>
+    <item type="id" name="np__numberpicker_input">false</item>
+    <item type="id" name="button_bar">false</item>
+    <item type="id" name="back_button">false</item>
+    <item type="id" name="skip_button">false</item>
+    <item type="id" name="next_button">false</item>
+    <item type="id" name="suggestButton">false</item>
+    <item type="id" name="donateButton">false</item>
+    <item type="id" name="titleAndSummaryContainer">false</item>
+    <item type="id" name="widgetFrame">false</item>
+    <item type="id" name="widget">false</item>
+    <item type="id" name="backgroundView">false</item>
+    <item type="id" name="actionBar">false</item>
+    <item type="id" name="refreshAllView">false</item>
+    <item type="id" name="actionBarSeparator">false</item>
+    <item type="id" name="listView">false</item>
+    <item type="id" name="emptyView">false</item>
+    <item type="id" name="widgetItem">false</item>
+    <item type="id" name="lastPriceWrapper">false</item>
+    <item type="id" name="priceIconView">false</item>
+    <item type="id" name="saveItem">false</item>
+    <item type="id" name="deleteItem">false</item>
+    <item type="id" name="settingsItem">false</item>
+    <item type="id" name="addCheckerItem">false</item>
+    <item type="id" name="sortByItem">false</item>
+    <item type="id" name="sortByManuallyItem">false</item>
+    <item type="id" name="sortByCurrencyItem">false</item>
+    <item type="id" name="sortByExchangeItem">false</item>
+    <item type="id" name="refreshAllItem">false</item>
+    <item type="id" name="editItem">false</item>
+    <item type="id" name="action_search">false</item>
+    <item type="id" name="sortAlphabeticallyItem">false</item>
+    <item type="id" name="sortNewestFirstItem">false</item>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:gravity="center" android:orientation="horizontal" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:shrinkColumns="0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:gravity="center">
+        <EditText android:gravity="right" android:id="@+id/valueView" android:layout_width="wrap_content" android:minEms="4" android:singleLine="true" android:digits="0123456789.," android:inputType="numberDecimal">
+            <requestFocus />
+        </EditText>
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@+id/sufixView" android:paddingLeft="8.0dip" android:text="USD" />
+    </TableRow>
+    <Button android:id="@+id/resetCheckpointButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/checker_add_alarm_checkpoint_reset_button" />
+</TableLayout>

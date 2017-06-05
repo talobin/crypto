@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/widget_settings_show_actionbar_title"
+                        android:key="@string/widget_settings_show_actionbar_key"
+                        android:summary="@string/widget_settings_show_actionbar_summary"
+                        android:defaultValue="true"/>
+    <CheckBoxPreference android:title="@string/widget_settings_compact_mode_title"
+                        android:key="@string/widget_settings_compact_mode_key"
+                        android:summary="@string/widget_settings_compact_mode_summary"/>
+    <CheckBoxPreference android:title="@string/widget_settings_dark_theme_title"
+                        android:key="@string/widget_settings_dark_theme_key"/>
+    <haivo.us.crypto.preferences.IntListPreference android:entries="@array/widget_settings_alpha_percent_entries"
+                                                   android:title="@string/widget_settings_alpha_percent_title"
+                                                   android:key="@string/widget_settings_alpha_percent_key"
+                                                   android:defaultValue="100"
+                                                   android:entryValues="@array/widget_settings_alpha_percent_values"/>
+    <Preference android:title="@string/widget_settings_refresh_hint_title"
+                android:selectable="false"
+                android:summary="@string/widget_settings_refresh_hint_summary"/>
+</PreferenceScreen>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingTop="4dp"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingBottom="4dp"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:minHeight="48dp">
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:textSize="20sp"
+                  android:textColor="?android:attr/textColorPrimary"
+                  android:ellipsize="end"
+                  android:id="@+id/marketNameView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:singleLine="true"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:textSize="12sp"
+                  android:id="@+id/defaultView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/market_picker_list_default_hint"
+                  android:maxLines="2"
+                  android:minLines="1"/>
+    </LinearLayout>
+    <CheckedTextView android:id="@+id/singleCheckView"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:checkMark="@style/CheckBox"
+                     android:singleLine="true"/>
+</LinearLayout>

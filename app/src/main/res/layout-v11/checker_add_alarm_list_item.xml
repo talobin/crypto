@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:background="?activatedBackgroundIndicator"
+             android:paddingLeft="@dimen/activity_horizontal_margin"
+             android:paddingTop="@dimen/list_item_vertical_padding_card"
+             android:paddingRight="@dimen/activity_horizontal_margin"
+             android:paddingBottom="@dimen/list_item_vertical_padding_card"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content">
+    <FrameLayout android:orientation="vertical"
+                 android:background="@drawable/card_background"
+                 android:duplicateParentState="true"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:foreground="?selectableItemBackground">
+        <LinearLayout android:gravity="center_vertical"
+                      android:orientation="horizontal"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content">
+            <TextView android:textSize="26.0sp"
+                      android:ellipsize="end"
+                      android:id="@id/alarmView"
+                      android:paddingLeft="12.0dip"
+                      android:paddingTop="@dimen/card_padding_inner"
+                      android:paddingBottom="@dimen/card_padding_inner"
+                      android:layout_width="0.0dip"
+                      android:layout_height="wrap_content"
+                      android:singleLine="true"
+                      android:includeFontPadding="false"
+                      android:layout_weight="1.0"/>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/alarmSoundView"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/ic_alarm_sound"/>
+                <ImageView android:id="@id/alarmVibrateView"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/ic_alarm_vibrate"
+                           android:layout_toRightOf="@id/alarmSoundView"/>
+                <ImageView android:id="@id/alarmLedView"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/ic_alarm_led"
+                           android:layout_below="@id/alarmSoundView"/>
+                <ImageView android:id="@id/alarmTtsView"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/ic_alarm_tts"
+                           android:layout_toRightOf="@id/alarmLedView"
+                           android:layout_alignBottom="@id/alarmLedView"/>
+            </RelativeLayout>
+            <FrameLayout android:id="@id/checkBoxWrapper"
+                         android:focusable="true"
+                         android:clickable="true"
+                         android:layout_width="wrap_content"
+                         android:layout_height="fill_parent"
+                         android:minWidth="50.0dip"
+                         android:minHeight="48.0dip">
+                <CheckBox android:gravity="center_horizontal"
+                          android:layout_gravity="center"
+                          android:id="@id/checkBox"
+                          android:focusable="false"
+                          android:focusableInTouchMode="false"
+                          android:clickable="false"
+                          android:duplicateParentState="true"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"/>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

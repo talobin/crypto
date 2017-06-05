@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="background_google_now">#ffeeeeee</color>
+    <color name="background_holo_light">#fff3f3f3</color>
+    <color name="circle_gray">#ff9e9e9e</color>
+    <color name="circle_green">#ff99cc00</color>
+    <color name="circle_red">#ffff4444</color>
+    <color name="default_progress_bar_color">#ff33b5e5</color>
+    <color name="generic_separator_light">#12000000</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="notification_action_material">#ff676767</color>
+    <color name="notification_separator">#14bbbbbb</color>
+    <color name="transparent">#00000000</color>
+    <color name="widget_actionbar_separator_dark">#1affffff</color>
+    <color name="widget_actionbar_separator_light">#1a000000</color>
+    <color name="widget_list_divider">#30888888</color>
+    <color name="widget_text_color_hint_dark">#ffaaaaaa</color>
+    <color name="widget_text_color_hint_light">#ff444444</color>
+    <color name="widget_text_color_primary_dark">#ffeeeeee</color>
+    <color name="widget_text_color_primary_light">#ff000000</color>
+    <color name="widget_text_color_secondary_dark">#ffdddddd</color>
+    <color name="widget_text_color_secondary_light">#ff222222</color>
+</resources>

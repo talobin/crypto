@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="checker_add_alarm_context_menu">
+        <item>@string/generic_delete</item>
+    </string-array>
+    <array name="checker_add_alarm_type_hints">
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@string/checker_add_alarm_type_hint_auto_disable</item>
+        <item>@string/checker_add_alarm_type_hint_auto_disable</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <string-array name="checker_add_alarm_types">
+        <item>@string/checker_add_alarm_type_percent_change</item>
+        <item>@string/checker_add_alarm_type_percent_change_up</item>
+        <item>@string/checker_add_alarm_type_percent_change_down</item>
+        <item>@string/checker_add_alarm_type_greater_than</item>
+        <item>@string/checker_add_alarm_type_lower_than</item>
+        <item>@string/checker_add_alarm_type_value_change</item>
+        <item>@string/checker_add_alarm_type_value_change_up</item>
+        <item>@string/checker_add_alarm_type_value_change_down</item>
+    </string-array>
+    <integer-array name="checker_add_alarm_types_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>6</item>
+        <item>7</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="settings_about_donate_options">
+        <item>@string/settings_about_donate_option_btc</item>
+        <item>@string/settings_about_donate_option_doge</item>
+        <item>@string/settings_about_donate_option_ltc</item>
+    </string-array>
+    <string-array name="settings_sounds_advanced_alarm_stream_entries">
+        <item>@string/settings_tts_advanced_stream_notification</item>
+        <item>@string/settings_tts_advanced_stream_alarm</item>
+    </string-array>
+    <string-array name="settings_sounds_advanced_alarm_stream_values">
+        <item>5</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="settings_tts_advanced_stream_entries">
+        <item>@string/settings_tts_advanced_stream_notification</item>
+        <item>@string/settings_tts_advanced_stream_music</item>
+    </string-array>
+    <string-array name="settings_tts_advanced_stream_values">
+        <item>5</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="widget_settings_alpha_percent_entries">
+        <item>@string/widget_settings_alpha_percent_100</item>
+        <item>90%</item>
+        <item>75%</item>
+        <item>50%</item>
+        <item>25%</item>
+        <item>@string/widget_settings_alpha_percent_0</item>
+    </string-array>
+    <string-array name="widget_settings_alpha_percent_values">
+        <item>100</item>
+        <item>90</item>
+        <item>75</item>
+        <item>50</item>
+        <item>25</item>
+        <item>0</item>
+    </string-array>
+    <declare-styleable name="ViewDialogPreference">
+        <attr name="dialogTitle" format="string" />
+    </declare-styleable>
+    <declare-styleable name="ViewPreference">
+        <attr name="title" format="string" />
+        <attr name="summary" format="string" />
+        <attr name="isChecked" format="boolean" />
+    </declare-styleable>
+</resources>

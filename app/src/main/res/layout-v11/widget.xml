@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:id="@+id/widget" android:padding="@dimen/widget_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@+id/backgroundView" android:background="@drawable/card_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/actionBar" android:background="@drawable/widget_actionbar_bg_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="32.0dip">
+            <ImageView android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="3.0dip" android:src="@drawable/ic_launcher_green" android:scaleType="centerInside" android:contentDescription="@null" />
+            <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:ellipsize="none" android:id="@+id/titleView" android:paddingLeft="6.0dip" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:text="@string/app_name" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageButton android:id="@+id/refreshAllView" android:background="@drawable/widget_action_refresh_all_bg_light" android:paddingLeft="4.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_action_refresh" android:scaleType="center" android:minHeight="32.0dip" android:contentDescription="@string/generic_refresh_all" />
+        </LinearLayout>
+        <ImageView android:id="@+id/actionBarSeparator" android:background="@color/widget_actionbar_separator_light" android:visibility="gone" style="@style/GenericSeparator.Horizontal.Full" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@+id/listView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/widget_list_divider" android:dividerHeight="1.0dip" />
+            <TextView android:textColor="#ff444444" android:gravity="center" android:id="@+id/emptyView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/widget_init_hint" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

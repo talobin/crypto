@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="black_30">#30000000</item>
+    <item type="drawable" name="notification_template_icon_min_bg">#0cffffff</item>
+    <item type="drawable" name="transparent">@android:color/transparent</item>
+    <item type="drawable" name="white_30">#30ffffff</item>
+</resources>

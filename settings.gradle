@@ -1,0 +1,3 @@
+include ':app', ':android-support-v4-preferencefragment', ':PullToRefresh'
+include ':switchCompatLibrary'
+include ':NumberPicker'

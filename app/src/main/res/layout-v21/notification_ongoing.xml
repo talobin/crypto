@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="@android:dimen/notification_large_icon_width" android:layout_height="@android:dimen/notification_large_icon_height">
+        <ImageView android:id="@+id/iconView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="12.0dip" android:scaleType="centerInside" android:contentDescription="@null" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:ellipsize="marquee" android:id="@+id/notificationTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/NotificationTitle" />
+        <TextView android:ellipsize="marquee" android:id="@+id/notificationText" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/NotificationText" />
+    </LinearLayout>
+    <ImageView android:background="@color/notification_separator" android:layout_marginLeft="0.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:contentDescription="@null" style="@style/GenericSeparator.Vertical" />
+    <ImageButton android:id="@+id/refreshButton" android:background="@drawable/background_gray_sel" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_action_refresh_dark" android:scaleType="center" android:tint="@color/notification_action_material" android:contentDescription="@string/generic_refresh" style="@android:style/Widget.Material.Light.Button.Borderless.Small" />
+</LinearLayout>

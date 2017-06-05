@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AbsCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox" />
+    <style name="AbsEditText" parent="@android:style/Widget.EditText" />
+    <style name="AbsTextView" parent="@android:style/Widget.TextView" />
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/MyActionBarStyle</item>
+        <item name="activatedBackgroundIndicator">@android:color/transparent</item>
+    </style>
+
+    <style name="NotificationText">
+        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+    </style>
+    <style name="NotificationTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:colorBackground">@color/background_holo_light</item>
+        <item name="android:windowBackground">@color/background_holo_light</item>
+        <item name="android:checkboxStyle">@style/CheckBox</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="numberPickerStyle">@style/NPWidget.Holo.Light.NumberPicker</item>
+        <item name="switchStyle">@style/switch_light</item>
+        <item name="textAppearance">@style/TextAppearance</item>
+    </style>
+    <style name="AppTheme.Cards" parent="@style/AppTheme">
+        <item name="android:colorBackground">@color/background_google_now</item>
+        <item name="android:windowBackground">@color/background_google_now</item>
+    </style>
+    <style name="AppTheme.Transparent" parent="@android:style/Theme.Translucent.NoTitleBar" />
+    <style name="AppThemeDark" parent="@android:style/Theme.DeviceDefault">
+        <item name="switchStyle">@style/switch_dark</item>
+        <item name="textAppearance">@style/TextAppearance</item>
+    </style>
+    <style name="AppThemeLight" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="switchStyle">@style/switch_light</item>
+        <item name="textAppearance">@style/TextAppearance</item>
+    </style>
+    <style name="CheckBox" parent="@style/AbsCheckBox" />
+    <style name="CheckerAddCurrencySummary">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:id">@+id/summaryView</item>
+        <item name="android:padding">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?android:listPreferredItemHeight</item>
+    </style>
+    <style name="EditText" parent="@style/AbsEditText" />
+    <style name="GenericIcsLayout">
+        <item name="divider">@drawable/generic_separator</item>
+        <item name="showDividers">middle</item>
+        <item name="dividerPadding">10.0dip</item>
+    </style>
+    <style name="GenericIcsLayout.Full" parent="@style/GenericIcsLayout">
+        <item name="dividerPadding">0.0dip</item>
+    </style>
+    <style name="GenericSeparator">
+        <item name="android:background">@drawable/generic_separator</item>
+        <item name="android:contentDescription">@null</item>
+    </style>
+    <style name="GenericSeparator.Horizontal" parent="@style/GenericSeparator">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+    </style>
+    <style name="GenericSeparator.Horizontal.Full" parent="@style/GenericSeparator.Horizontal">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+    </style>
+    <style name="GenericSeparator.Vertical" parent="@style/GenericSeparator">
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+    <style name="GenericSeparator.Vertical.Full" parent="@style/GenericSeparator.Vertical">
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+    </style>
+    <style name="MyActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="titleTextStyle">@style/MyTitleTextStyle</item>
+    </style>
+    <style name="MyTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">19.0sp</item>
+    </style>
+    <style name="NPWidget">
+        <item name="android:textAppearance">?android:textAppearance</item>
+    </style>
+    <style name="NPWidget.Holo.Light.NumberPicker" parent="@style/NPWidget.Holo.NumberPicker">
+        <item name="virtualButtonPressedDrawable">@drawable/item_background_holo_light</item>
+    </style>
+    <style name="NPWidget.Holo.NumberPicker" parent="@style/NPWidget.NumberPicker">
+        <item name="solidColor">@android:color/transparent</item>
+        <item name="selectionDivider">@drawable/np_numberpicker_selection_divider</item>
+        <item name="selectionDividerHeight">2.0dip</item>
+        <item name="internalMaxHeight">180.0dip</item>
+        <item name="internalMinWidth">64.0dip</item>
+        <item name="internalLayout">@layout/number_picker_with_selector_wheel</item>
+        <item name="virtualButtonPressedDrawable">@drawable/item_background_holo_dark</item>
+    </style>
+    <style name="NPWidget.NumberPicker" parent="@style/NPWidget">
+        <item name="android:orientation">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">50.0dip</item>
+    </style>
+
+    <style name="switch_dark">
+        <item name="thumb">@drawable/switch_inner_holo_dark</item>
+        <item name="track">@drawable/switch_track_holo_dark</item>
+        <item name="textOn">@string/textOn</item>
+        <item name="textOff">@string/textOff</item>
+        <item name="thumbTextPadding">12.0dip</item>
+        <item name="switchTextAppearance">@style/TextAppearance</item>
+        <item name="switchMinWidth">96.0dip</item>
+        <item name="switchPadding">16.0dip</item>
+    </style>
+    <style name="switch_light">
+        <item name="thumb">@drawable/switch_inner_holo_light</item>
+        <item name="track">@drawable/switch_track_holo_light</item>
+        <item name="textOn">@string/textOn</item>
+        <item name="textOff">@string/textOff</item>
+        <item name="thumbTextPadding">12.0dip</item>
+        <item name="switchTextAppearance">@style/TextAppearance</item>
+        <item name="switchMinWidth">96.0dip</item>
+        <item name="switchPadding">16.0dip</item>
+    </style>
+</resources>

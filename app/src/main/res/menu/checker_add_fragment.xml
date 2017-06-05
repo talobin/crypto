@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_save"
+          android:id="@+id/saveItem"
+          android:orderInCategory="50"
+          android:title="@string/generic_save"
+          app:showAsAction="ifRoom|withText"/>
+    <item android:icon="@drawable/ic_action_delete"
+          android:id="@+id/deleteItem"
+          android:orderInCategory="51"
+          android:title="@string/generic_delete"
+          app:showAsAction="never"/>
+</menu>

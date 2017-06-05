@@ -1,0 +1,18 @@
+apply plugin: 'android-library'
+
+dependencies {
+    compile 'com.github.castorflex.smoothprogressbar:library:0.4.+@aar'
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        // This should be 14, but is 7 because extra-abc/extra-abs depend on this library
+        minSdkVersion 7
+        targetSdkVersion 19
+    }
+}
+
+//apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'

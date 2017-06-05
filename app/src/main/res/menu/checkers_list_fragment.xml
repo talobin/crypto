@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_add"
+          android:id="@id/addCheckerItem"
+          android:orderInCategory="100"
+          android:title="@string/checkers_list_add_title"
+          app:showAsAction="ifRoom|withText"/>
+    <item android:icon="@drawable/ic_action_sort"
+          android:id="@id/sortByItem"
+          android:orderInCategory="101"
+          android:title="@string/generic_sort_by"
+          app:showAsAction="ifRoom|withText">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@id/sortByManuallyItem"
+                      android:title="@string/checkers_list_sort_manually"
+                      app:showAsAction="never"/>
+                <item android:id="@id/sortByCurrencyItem"
+                      android:title="@string/checkers_list_sort_currency"
+                      app:showAsAction="never"/>
+                <item android:id="@id/sortByExchangeItem"
+                      android:title="@string/checkers_list_sort_exchange"
+                      app:showAsAction="never"/>
+            </group>
+        </menu>
+    </item>
+    <item android:icon="@drawable/ic_action_refresh"
+          android:id="@id/refreshAllItem"
+          android:orderInCategory="102"
+          android:title="@string/generic_refresh_all"
+          app:showAsAction="never"/>
+</menu>
