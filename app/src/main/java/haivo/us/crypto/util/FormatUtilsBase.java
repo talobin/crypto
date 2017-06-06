@@ -3,9 +3,9 @@ package haivo.us.crypto.util;
 import android.content.Context;
 import android.text.format.DateFormat;
 import android.text.format.DateUtils;
+import haivo.us.crypto.model.CurrencySubunit;
 import java.text.DecimalFormat;
 import java.util.Date;
-import haivo.us.crypto.model.CurrencySubunit;
 
 public class FormatUtilsBase {
     private static final DecimalFormat FORMAT_EIGHT_SIGNIFICANT_AT_MOST;
@@ -60,7 +60,7 @@ public class FormatUtilsBase {
     }
 
     public static String formatPriceWithCurrency(String priceString, String currency) {
-        return priceString + " " + CurrencyUtils.getCurrencySymbol(currency);
+        return CurrencyUtils.getCurrencySymbol(currency) + priceString;
     }
 
     public static String formatPriceValueForSubunit(double price,
