@@ -34,7 +34,7 @@ public abstract class GzipVolleyRequest<T> extends Request<T> {
         this.listener = listener;
         this.headers = new HashMap();
         this.headers.put("Accept-Encoding", "gzip");
-        this.headers.put("User-Agent", "Diana Bitcoin (gzip)");
+        this.headers.put("User-Agent", "Crypto Kit (gzip)");
     }
 
     public RequestQueue getRequestQueue() {

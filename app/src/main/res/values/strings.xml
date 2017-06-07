@@ -15,7 +15,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="cancel">Cancel</string>
     <string name="ok">Ok</string>
-    <string name="app_name">Diana Bitcoin</string>
+    <string name="app_name">Crypto Kit</string>
     <string name="back_button_label">Back</string>
     <string name="check_error_generic">Error</string>
     <string name="check_error_generic_prefix">Error: %1$s</string>
@@ -81,7 +81,7 @@
     <string name="checker_add_enable">Enable</string>
     <string name="checker_add_exchange_tutorial2_text">Please understand that all information is downloaded <b>directly</b> from exchange server. So if anything has stopped working - it is probably <b>not our fault</b>".
 
-In most cases exchange server has some issues or they've changed their API and application is no longer able to read prices. In both cases please don't blame Diana Bitcoin, but rather "<b>kindly report</b>" such situation to us. I'll then check it and apply a fix!
+In most cases exchange server has some issues or they've changed their API and application is no longer able to read prices. In both cases please don't blame Crypto Kit, but rather "<b>kindly report</b>" such situation to us. I'll then check it and apply a fix!
 
 Thanks! :)"</string>
     <string name="checker_add_exchange_tutorial2_title">Information</string>
@@ -99,7 +99,7 @@ You can change it to another one to see different currency pairs - not only with
     <string name="checker_alarms_list_empty_text">No Alarms</string>
     <string name="checkers_list_add_title">Add Checker</string>
     <string name="checkers_list_empty_text">No Checkers</string>
-    <string name="checkers_list_first_time_dialog_message">Diana Bitcoin is a <b>FREE</b>" app to track the most recent prices of your favourite currency pairs (on over 80 supported exchanges) in many customizable ways.
+    <string name="checkers_list_first_time_dialog_message">Crypto Kit is a <b>FREE</b>" app to track the most recent prices of your favourite currency pairs (on over 80 supported exchanges) in many customizable ways.
 
 Please notice that this app "<b>is NOT</b>" for: drawing charts, trading, browsing orders list or watching address balance.
 
@@ -124,7 +124,7 @@ Since March 2014 I have published an open souce projects called "<b>DataModule</
 Now every user is able to contribute to our project by adding support for new exchanges or updating currency pairs on selected ones.
 I believe that "<b>with your help</b>" we can make this app even better!
 
-This is also a new official place to report any "<b>issues</b> or ideas for Diana Bitcoin project.</small></string>
+This is also a new official place to report any "<b>issues</b> or ideas for Crypto Kit project.</small></string>
     <string name="checkers_list_news_dialog_title">News</string>
     <string name="checkers_list_refreshing_all">Checkers will be refreshed…</string>
     <string name="checkers_list_sort_currency">Currency</string>
@@ -204,7 +204,7 @@ This is also a new official place to report any "<b>issues</b> or ideas for Dian
     <string name="settings_about_donate_summary">If you like this app, or not, you can donate anything to support the further development.</string>
     <string name="settings_about_donate_title">Donate ♥</string>
     <string name="settings_about_github_key">SETTINGS_ABOUT_GITHUB</string>
-    <string name="settings_about_github_title">Visit Diana Bitcoin @ GitHub</string>
+    <string name="settings_about_github_title">Visit Crypto Kit @ GitHub</string>
     <string name="settings_about_iab_error">Error: Operation cannot be performed.</string>
     <string name="settings_about_rate_key">SETTINGS_ABOUT_RATE</string>
     <string name="settings_about_rate_summary">or share your opinion</string>
@@ -254,7 +254,7 @@ This is also a new official place to report any "<b>issues</b> or ideas for Dian
     <string name="settings_tts_category_key">SETTINGS_TTS_CATEGORY</string>
     <string name="settings_tts_category_title">Text-To-Speech Settings</string>
     <string name="settings_tts_configure_key">SETTINGS_TTS_CONFIGURE</string>
-    <string name="settings_tts_configure_summary">Please note that Diana Bitcoin can speak to you only in English, so make sure your TTS Engine supports it.</string>
+    <string name="settings_tts_configure_summary">Please note that Crypto Kit can speak to you only in English, so make sure your TTS Engine supports it.</string>
     <string name="settings_tts_configure_title">Configure TTS engine</string>
     <string name="settings_tts_format_category_title">Format</string>
     <string name="settings_tts_format_example_key">SETTINGS_TTS_FORMAT_EXAMPLEE</string>
@@ -276,13 +276,13 @@ This is also a new official place to report any "<b>issues</b> or ideas for Dian
     <string name="settings_tts_screen_off_only_title">Only when display is off</string>
     <string name="settings_tts_speak_conditions_category_title">Speak conditions</string>
     <string name="skip_button_label">Skip</string>
-    <string name="suggest_new_exchange_activity_email_subject">Diana Bitcoin: New exchange suggestion</string>
+    <string name="suggest_new_exchange_activity_email_subject">Crypto Kit: New exchange suggestion</string>
     <string name="suggest_new_exchange_activity_send_suggestion">Go to GitHub</string>
     <string name="suggest_new_exchange_activity_text"><b>I like adding new exchanges</b>" for you but there are some which I cannot add due to described reasons: 
 
 "<b>- Bitcoin.de</b>": do not provide any form of public API. I've sent them an email with questions if they have any plans to release API, but still no response from them. 
 
-"<b>- CoinedUp</b>": they don't want our users to read data directly from them. The only solution is to setup and maintain our own server, but this would require introducing a paid subscription plan into Diana Bitcoin. As for now I want to keep Diana Bitcoin free. If you are very interested in this exchange and you will be willing to pay for using it in Diana Bitcoin please contact us via email.
+"<b>- CoinedUp</b>": they don't want our users to read data directly from them. The only solution is to setup and maintain our own server, but this would require introducing a paid subscription plan into Crypto Kit. As for now I want to keep Crypto Kit free. If you are very interested in this exchange and you will be willing to pay for using it in Crypto Kit please contact us via email.
 
 "<b>- BitNZ</b>": doesn't provide any public API. 
 
@@ -292,15 +292,15 @@ This is also a new official place to report any "<b>issues</b> or ideas for Dian
 
 "<b>- AllCrypt</b>: They have very strict limitation to their API access and (after some tests) I am unable to add this exchanges. Please see more details <a href="https://github.com/talobin/crypto/pull/43">here</a>".
 
-As you can see from our comments I really care about Diana Bitcoin users very much and try to add almost every functionality suggested by them and support Diana Bitcoin as good as I can - "<b>doing it continuously for almost a year</b>".
-I'm just a normal guy, making Diana Bitcoin in my free time (after regular job) and provide it completely "<b>for free</b>" only to make other people happy - so the things that motivates me the most are great reviews from users.
+As you can see from our comments I really care about Crypto Kit users very much and try to add almost every functionality suggested by them and support Crypto Kit as good as I can - "<b>doing it continuously for almost a year</b>".
+I'm just a normal guy, making Crypto Kit in my free time (after regular job) and provide it completely "<b>for free</b>" only to make other people happy - so the things that motivates me the most are great reviews from users.
 If you thing I am doing a great job please do not forget to give a great rating on Google Play Store:) 
 
 "<big>Update:</big>" 
 Since "<b>March 2014</b> I have published an open souce projects called <b>DataModule</b> and <b>DataModuleTester</b> on <b>GitHub</b>". Now every user is able to contribute to our project by adding support for new exchanges or updating currency pairs on selected ones.
 I believe that "<b>with your help</b>" we can make this app even better! 
 
-This is also a new official place to report any issues or ideas for Diana Bitcoin project."</string>
+This is also a new official place to report any issues or ideas for Crypto Kit project."</string>
     <string name="suggest_new_exchange_activity_title">Suggest new exchange</string>
     <string name="textOff">OFF</string>
     <string name="textOn">ON</string>

@@ -18,8 +18,8 @@ public class SoundFilesManager {
     public static final String BITCOIN_CHECKER_UP_CHEERS_FILENAME = "bitcoin_checker_up_cheers";
 
     public static void installRingtonesIfNeeded(Context context) {
-        installRingtoneFileIfNeeded(context, BITCOIN_CHECKER_UP_CHEERS_FILENAME, "Diana Bitcoin Up Cheers");
-        installRingtoneFileIfNeeded(context, BITCOIN_CHECKER_DOWN_ALERT_FILENAME, "Diana Bitcoin Down Alert");
+        installRingtoneFileIfNeeded(context, BITCOIN_CHECKER_UP_CHEERS_FILENAME, "Crypto Kit Up Cheers");
+        installRingtoneFileIfNeeded(context, BITCOIN_CHECKER_DOWN_ALERT_FILENAME, "Crypto Kit Down Alert");
     }
 
     private static void installRingtoneFileIfNeeded(Context context, String fileName, String ringtoneTitle) {

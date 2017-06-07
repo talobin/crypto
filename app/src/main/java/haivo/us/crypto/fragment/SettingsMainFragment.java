@@ -163,7 +163,7 @@ public class SettingsMainFragment extends TTSAwareFragment {
         }
         aboutVersionPreference.setOnPreferenceClickListener(new OnPreferenceClickListener() {
             public boolean onPreferenceClick(Preference preference) {
-                Utils.sendEmail(SettingsMainFragment.this.getActivity(), "vodinhhai@gmail.com", "Diana Bitcoin");
+                Utils.sendEmail(SettingsMainFragment.this.getActivity(), "vodinhhai@gmail.com", "Crypto Kit");
                 return true;
             }
         });
