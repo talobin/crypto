@@ -148,12 +148,12 @@ public class SettingsMainFragment extends TTSAwareFragment {
         findPreference(getString(R.string.settings_about_donate_key)).setOnPreferenceClickListener(new C01857());
         findPreference(getString(R.string.settings_about_share_key)).setOnPreferenceClickListener(new C01868());
         findPreference(getString(R.string.settings_about_rate_key)).setOnPreferenceClickListener(new C01879());
-        findPreference(getString(R.string.settings_about_changelog_key)).setOnPreferenceClickListener(new OnPreferenceClickListener() {
-            public boolean onPreferenceClick(Preference preference) {
-                new ChangeLogDialog(SettingsMainFragment.this.getActivity()).show();
-                return true;
-            }
-        });
+        //findPreference(getString(R.string.settings_about_changelog_key)).setOnPreferenceClickListener(new OnPreferenceClickListener() {
+        //    public boolean onPreferenceClick(Preference preference) {
+        //        new ChangeLogDialog(SettingsMainFragment.this.getActivity()).show();
+        //        return true;
+        //    }
+        //});
         Preference aboutVersionPreference = findPreference(getString(R.string.settings_about_version_key));
         try {
             PackageInfo pInfo = getActivity().getPackageManager().getPackageInfo(getActivity().getPackageName(), 0);

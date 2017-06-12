@@ -24,8 +24,8 @@
         <Preference android:title="@string/settings_about_rate_title"
             android:key="@string/settings_about_rate_key"
             android:summary="@string/settings_about_rate_summary"/>
-        <Preference android:title="@string/settings_about_changelog_title"
-            android:key="@string/settings_about_changelog_key"/>
+        <!--<Preference android:title="@string/settings_about_changelog_title"-->
+            <!--android:key="@string/settings_about_changelog_key"/>-->
         <Preference android:title="@string/settings_about_version_title"
             android:key="@string/settings_about_version_key"
             android:summary="@string/settings_about_version_summary"/>

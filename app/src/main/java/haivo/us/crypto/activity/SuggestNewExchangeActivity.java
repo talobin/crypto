@@ -14,7 +14,7 @@ import haivo.us.crypto.R;
 import haivo.us.crypto.util.Utils;
 
 public class SuggestNewExchangeActivity extends SimpleDonateFragmentSubActivity<Fragment> {
-    public static final String GITHUB_URL = "https://github.com/talobin/";
+    public static final String GITHUB_URL = "https://github.com/talobin/crypto";
     @BindView(R.id.suggestButton) Button suggestButton;
     @BindView(R.id.textView) TextView textView;
 

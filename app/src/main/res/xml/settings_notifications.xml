@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
-                  xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory app:title="@string/settings_check_notification_category_title"
-                        android:key="@string/settings_check_notification_category_key">
-        <CheckBoxPreference app:title="@string/settings_check_notification_expandable_title"
-                            android:key="@string/settings_check_notification_expandable_key"
-                            app:summary="@string/settings_check_notification_expandable_summary"
-                            android:defaultValue="true"/>
-        <CheckBoxPreference app:title="@string/settings_check_notification_custom_layout_title"
-                            android:key="@string/settings_check_notification_custom_layout_key"
-                            app:summary="@string/settings_check_notification_custom_layout_summary"
-                            android:defaultValue="true"/>
-        <CheckBoxPreference app:title="@string/settings_check_notification_ticker_title"
-                            android:key="@string/settings_check_notification_ticker_key"
-                            app:summary="@string/settings_check_notification_ticker_summary"
-                            android:defaultValue="true"/>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_check_notification_category_title"
+        android:key="@string/settings_check_notification_category_key">
+        <CheckBoxPreference android:title="@string/settings_check_notification_expandable_title"
+            android:key="@string/settings_check_notification_expandable_key"
+            android:summary="@string/settings_check_notification_expandable_summary"
+            android:defaultValue="true"/>
+        <CheckBoxPreference android:title="@string/settings_check_notification_custom_layout_title"
+            android:key="@string/settings_check_notification_custom_layout_key"
+            android:summary="@string/settings_check_notification_custom_layout_summary"
+            android:defaultValue="true"/>
+        <CheckBoxPreference android:title="@string/settings_check_notification_ticker_title"
+            android:key="@string/settings_check_notification_ticker_key"
+            android:summary="@string/settings_check_notification_ticker_summary"
+            android:defaultValue="true"/>
     </PreferenceCategory>
 </PreferenceScreen>

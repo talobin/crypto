@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
-                  xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory app:title="@string/settings_sounds_alarm_notification_category_title"
-                        android:key="@string/settings_sounds_alarm_notification_category_key"/>
-    <PreferenceCategory app:title="@string/settings_sounds_advanced_category_title">
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_sounds_alarm_notification_category_title"
+        android:key="@string/settings_sounds_alarm_notification_category_key"/>
+    <PreferenceCategory android:title="@string/settings_sounds_advanced_category_title">
         <haivo.us.crypto.preferences.IntListPreference android:entries="@array/settings_sounds_advanced_alarm_stream_entries"
-                                                       app:title="@string/settings_sounds_advanced_alarm_stream_title"
-                                                       android:key="@string/settings_sounds_advanced_alarm_stream_key"
-                                                       android:defaultValue="5"
-                                                       android:entryValues="@array/settings_sounds_advanced_alarm_stream_values"/>
+            android:title="@string/settings_sounds_advanced_alarm_stream_title"
+            android:key="@string/settings_sounds_advanced_alarm_stream_key"
+            android:defaultValue="5"
+            android:entryValues="@array/settings_sounds_advanced_alarm_stream_values"/>
     </PreferenceCategory>
 </PreferenceScreen>

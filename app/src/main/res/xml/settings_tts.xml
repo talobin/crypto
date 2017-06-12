@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
-                  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Preference app:title="@string/settings_tts_configure_title"
-                android:key="@string/settings_tts_configure_key"
-                android:summary="@string/settings_tts_configure_summary"/>
-    <PreferenceCategory app:title="@string/settings_tts_format_category_title">
-        <Preference app:title="@string/settings_tts_format_example_title"
-                    android:key="@string/settings_tts_format_example_key"/>
-        <CheckBoxPreference app:title="@string/settings_tts_format_speak_base_currency_title"
-                            android:key="@string/settings_tts_format_speak_base_currency_key"
-                            android:summary="@string/settings_tts_format_speak_base_currency_summary"
-                            android:defaultValue="true"/>
-        <CheckBoxPreference app:title="@string/settings_tts_format_integer_only_title"
-                            android:key="@string/settings_tts_format_integer_only_key"
-                            android:summary="@string/settings_tts_format_integer_only_summary"
-                            android:defaultValue="true"/>
-        <CheckBoxPreference app:title="@string/settings_tts_format_speak_counter_currency_title"
-                            android:key="@string/settings_tts_format_speak_counter_currency_key"
-                            android:summary="@string/settings_tts_format_speak_counter_currency_summary"
-                            android:defaultValue="false"/>
-        <CheckBoxPreference app:title="@string/settings_tts_format_speak_exchange_title"
-                            android:key="@string/settings_tts_format_speak_exchange_key"
-                            android:defaultValue="false"/>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/settings_tts_configure_title"
+        android:key="@string/settings_tts_configure_key"
+        android:summary="@string/settings_tts_configure_summary"/>
+    <PreferenceCategory android:title="@string/settings_tts_format_category_title">
+        <Preference android:title="@string/settings_tts_format_example_title"
+            android:key="@string/settings_tts_format_example_key"/>
+        <CheckBoxPreference android:title="@string/settings_tts_format_speak_base_currency_title"
+            android:key="@string/settings_tts_format_speak_base_currency_key"
+            android:summary="@string/settings_tts_format_speak_base_currency_summary"
+            android:defaultValue="true"/>
+        <CheckBoxPreference android:title="@string/settings_tts_format_integer_only_title"
+            android:key="@string/settings_tts_format_integer_only_key"
+            android:summary="@string/settings_tts_format_integer_only_summary"
+            android:defaultValue="true"/>
+        <CheckBoxPreference android:title="@string/settings_tts_format_speak_counter_currency_title"
+            android:key="@string/settings_tts_format_speak_counter_currency_key"
+            android:summary="@string/settings_tts_format_speak_counter_currency_summary"
+            android:defaultValue="false"/>
+        <CheckBoxPreference android:title="@string/settings_tts_format_speak_exchange_title"
+            android:key="@string/settings_tts_format_speak_exchange_key"
+            android:defaultValue="false"/>
     </PreferenceCategory>
-    <PreferenceCategory app:title="@string/settings_tts_speak_conditions_category_title">
-        <CheckBoxPreference app:title="@string/settings_tts_screen_off_only_title"
-                            android:key="@string/settings_tts_screen_off_only_key"
-                            android:defaultValue="false"/>
-        <CheckBoxPreference app:title="@string/settings_tts_headphones_only_title"
-                            android:key="@string/settings_tts_headphones_only_key"
-                            android:defaultValue="false"/>
+    <PreferenceCategory android:title="@string/settings_tts_speak_conditions_category_title">
+        <CheckBoxPreference android:title="@string/settings_tts_screen_off_only_title"
+            android:key="@string/settings_tts_screen_off_only_key"
+            android:defaultValue="false"/>
+        <CheckBoxPreference android:title="@string/settings_tts_headphones_only_title"
+            android:key="@string/settings_tts_headphones_only_key"
+            android:defaultValue="false"/>
     </PreferenceCategory>
-    <PreferenceCategory app:title="@string/settings_tts_advanced_category_title">
+    <PreferenceCategory android:title="@string/settings_tts_advanced_category_title">
         <haivo.us.crypto.preferences.IntListPreference android:entries="@array/settings_tts_advanced_stream_entries"
-                                                       app:title="@string/settings_tts_advanced_stream_title"
-                                                       android:key="@string/settings_tts_advanced_stream_key"
-                                                       android:defaultValue="5"
-                                                       android:entryValues="@array/settings_tts_advanced_stream_values"/>
+            android:title="@string/settings_tts_advanced_stream_title"
+            android:key="@string/settings_tts_advanced_stream_key"
+            android:defaultValue="5"
+            android:entryValues="@array/settings_tts_advanced_stream_values"/>
     </PreferenceCategory>
 </PreferenceScreen>
