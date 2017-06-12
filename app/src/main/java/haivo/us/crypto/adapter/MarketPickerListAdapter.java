@@ -119,11 +119,12 @@ public class MarketPickerListAdapter extends BaseAdapter implements Filterable, 
             }
             singleCheckView.setChecked(z);
             singleCheckView.setCheckMarkDrawable(this.checkMarkDrawableResId);
+            singleCheckView.setVisibility(View.VISIBLE);
         } else {
             marketNameView.setText(R.string.checker_add_check_market_suggest_more);
             defaultView.setVisibility(View.GONE);
             singleCheckView.setChecked(false);
-            singleCheckView.setCheckMarkDrawable(0);
+            singleCheckView.setVisibility(View.GONE);
         }
         return convertView;
     }
