@@ -96,7 +96,7 @@ public class AlarmRecordHelper {
             case ALARM_TYPE_LOWER_THAN /*7*/:
                 return FormatUtilsBase.formatPriceValueForSubunit(alarmRecord.getValue(), subunitDst, false, true);
             default:
-                return FormatUtilsBase.formatDoubleWithThreeMax(alarmRecord.getValue());
+                return FormatUtilsBase.formatDoubleWithFiveMax(alarmRecord.getValue());
         }
     }
 

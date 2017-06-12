@@ -68,33 +68,55 @@ public class CheckerAddFragment extends Fragment {
     private static final int REQ_EDIT_ALARM = 200;
     private static final int REQ_MARKET_PICKER = 199;
     private ArrayList<AlarmRecord> alarmRecords;
-    @BindView(R.id.alarmSectionHeader) TextView alarmSectionHeader;
-    @BindView(R.id.alarmSectionWrapper) View alarmSectionWrapper;
+    @BindView(R.id.alarmSectionHeader)
+    TextView alarmSectionHeader;
+    @BindView(R.id.alarmSectionWrapper)
+    View alarmSectionWrapper;
     private CheckerAlarmsListAdapter alarmsAdapter;
-    @BindView(R.id.alarmsListView) LinearListView alarmsListView;
-    @BindView(R.id.checkSectionWrapper) View checkSectionWrapper;
-    @BindView(R.id.checkTTSView) ViewTwoStatePreference checkTTSView;
+    @BindView(R.id.alarmsListView)
+    LinearListView alarmsListView;
+    @BindView(R.id.checkSectionWrapper)
+    View checkSectionWrapper;
+    @BindView(R.id.checkTTSView)
+    ViewTwoStatePreference checkTTSView;
     private CheckerAddAlarmFragment checkerAddAlarmFragment;
-    @BindView(R.id.checkerAddAlarmFragmentWrapper) View checkerAddAlarmFragmentWrapper;
+    @BindView(R.id.checkerAddAlarmFragmentWrapper)
+    View checkerAddAlarmFragmentWrapper;
     private CheckerRecord checkerRecord;
-    @BindView(R.id.currencyDstSpinner) ViewCurrencySpinnerPreference currencyDstSpinner;
-    @BindView(R.id.currencyDstSubunitSpinner) ViewSpinnerPreference currencyDstSubunitSpinner;
+    @BindView(R.id.currencyDstSpinner)
+    ViewCurrencySpinnerPreference currencyDstSpinner;
+    @BindView(R.id.currencyDstSubunitSpinner)
+    ViewSpinnerPreference currencyDstSubunitSpinner;
     private CurrencyPairsMapHelper currencyPairsMapHelper;
-    @BindView(R.id.currencySpinnersAndDynamicPairsWrapper) View currencySpinnersAndDynamicPairsWrapper;
-    @BindView(R.id.currencySpinnersWrapper) View currencySpinnersWrapper;
-    @BindView(R.id.currencySrcSpinner) ViewCurrencySpinnerPreference currencySrcSpinner;
-    @BindView(R.id.currencySrcSubunitSpinner) ViewSpinnerPreference currencySrcSubunitSpinner;
-    @BindView(R.id.dynamicCurrencyPairsInfoView) View dynamicCurrencyPairsInfoView;
-    @BindView(R.id.dynamicCurrencyPairsNoSyncYetView) View dynamicCurrencyPairsNoSyncYetView;
-    @BindView(R.id.dynamicCurrencyPairsWarningView) View dynamicCurrencyPairsWarningView;
-    @BindView(R.id.enabledView) ViewTwoStatePreference enabledView;
-    @BindView(R.id.frequencySpinner) ViewFrequencyPickerPreference frequencySpinner;
-    @BindView(R.id.futuresContractTypeSpinner) ViewSpinnerPreference futuresContractTypeSpinner;
-    @BindView(R.id.marketCautionView) TextView marketCautionView;
-    @BindView(R.id.marketSpinner) ViewPreference marketSpinner;
-    @BindView(R.id.notificationPriorityView) ViewTwoStatePreference notificationPriorityView;
+    @BindView(R.id.currencySpinnersAndDynamicPairsWrapper)
+    View currencySpinnersAndDynamicPairsWrapper;
+    @BindView(R.id.currencySpinnersWrapper)
+    View currencySpinnersWrapper;
+    @BindView(R.id.currencySrcSpinner)
+    ViewCurrencySpinnerPreference currencySrcSpinner;
+    @BindView(R.id.currencySrcSubunitSpinner)
+    ViewSpinnerPreference currencySrcSubunitSpinner;
+    @BindView(R.id.dynamicCurrencyPairsInfoView)
+    View dynamicCurrencyPairsInfoView;
+    @BindView(R.id.dynamicCurrencyPairsNoSyncYetView)
+    View dynamicCurrencyPairsNoSyncYetView;
+    @BindView(R.id.dynamicCurrencyPairsWarningView)
+    View dynamicCurrencyPairsWarningView;
+    @BindView(R.id.enabledView)
+    ViewTwoStatePreference enabledView;
+    @BindView(R.id.frequencySpinner)
+    ViewFrequencyPickerPreference frequencySpinner;
+    @BindView(R.id.futuresContractTypeSpinner)
+    ViewSpinnerPreference futuresContractTypeSpinner;
+    @BindView(R.id.marketCautionView)
+    TextView marketCautionView;
+    @BindView(R.id.marketSpinner)
+    ViewPreference marketSpinner;
+    @BindView(R.id.notificationPriorityView)
+    ViewTwoStatePreference notificationPriorityView;
     private ArrayList<Long> removedAlarmRecordIds;
-    @BindView(R.id.scrollView) ScrollView scrollView;
+    @BindView(R.id.scrollView)
+    ScrollView scrollView;
     private boolean unsavedChanges;
 
     /* renamed from: haivo.us.crypto.fragment.CheckerAddFragment.4 */
@@ -769,11 +791,10 @@ public class CheckerAddFragment extends Fragment {
 
     private void refreshAlarms() {
         if (this.alarmRecords.size() == 1) {
-            this.checkerAddAlarmFragment.setCheckerAndAlarmRecord(this.checkerRecord,
-                                                                  (AlarmRecord) this.alarmRecords.get(0));
-            this.checkerAddAlarmFragmentWrapper.setVisibility(0);
+            this.checkerAddAlarmFragment.setCheckerAndAlarmRecord(this.checkerRecord, this.alarmRecords.get(0));
+            this.checkerAddAlarmFragmentWrapper.setVisibility(View.VISIBLE);
         } else {
-            this.checkerAddAlarmFragmentWrapper.setVisibility(8);
+            this.checkerAddAlarmFragmentWrapper.setVisibility(View.GONE);
         }
         this.alarmsAdapter.notifyDataSetChanged();
     }
@@ -880,8 +901,7 @@ public class CheckerAddFragment extends Fragment {
         if (resultCode == -1) {
             if (requestCode == REQ_EDIT_ALARM) {
                 int alarmRecordPosition = data.getIntExtra(CheckerAddAlarmActivity.EXTRA_ALARM_RECORD_INDEX, -1);
-                AlarmRecord alarmRecord =
-                    (AlarmRecord) data.getParcelableExtra(CheckerAddAlarmActivity.EXTRA_ALARM_RECORD);
+                AlarmRecord alarmRecord = data.getParcelableExtra(CheckerAddAlarmActivity.EXTRA_ALARM_RECORD);
                 if (alarmRecordPosition < 0 || alarmRecordPosition >= this.alarmRecords.size()) {
                     if (alarmRecord != null) {
                         this.alarmRecords.add(alarmRecord);

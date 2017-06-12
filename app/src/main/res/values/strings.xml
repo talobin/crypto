@@ -175,8 +175,8 @@ This is also a new official place to report any "<b>issues</b> or ideas for Cryp
     <string name="notification_ongoing_text_no_info">No additional data</string>
     <string name="notification_ongoing_text_separator">" | "</string>
     <string name="notification_ongoing_text_volume">Vol: %1$s</string>
-    <string name="notification_ongoing_title">%1$s: %2$s @ %3$s</string>
-    <string name="notification_ongoing_title_error">%1$s @ %2$s</string>
+    <string name="notification_ongoing_title">%1$s: %2$s @%3$s</string>
+    <string name="notification_ongoing_title_error">%1$s @%2$s</string>
     <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
     <string name="pull_to_refresh_refreshing_label">Loading…</string>
     <string name="pull_to_refresh_release_label">Release to refresh…</string>
