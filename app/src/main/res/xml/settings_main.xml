@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
-                  xmlns:android="http://schemas.android.com/apk/res/android">
-    <haivo.us.crypto.preferences.FrequencyPickerDialogPreference app:title="@string/settings_check_global_frequency_title"
-                                                                 android:key="@string/settings_check_global_frequency_key"
-                                                                 app:dialogTitle="@string/settings_check_global_frequency_title"/>
-    <Preference app:title="@string/settings_notifications_category_title"
-                android:key="@string/settings_notifications_category_key"/>
-    <Preference app:title="@string/settings_sounds_category_title" android:key="@string/settings_sounds_category_key"/>
-    <Preference app:title="@string/settings_tts_category_title" android:key="@string/settings_tts_category_key"/>
-    <PreferenceCategory app:title="@string/settings_about_category_title">
-        <Preference app:title="@string/settings_about_report_issue_title"
-                    android:key="@string/settings_about_report_issue_key"
-                    app:summary="@string/settings_about_report_issue_summary"/>
-        <Preference app:title="@string/settings_about_github_title" android:key="@string/settings_about_github_key"/>
-        <Preference app:title="@string/settings_about_donate_title"
-                    android:key="@string/settings_about_donate_key"
-                    app:summary="@string/settings_about_donate_summary"/>
-        <Preference app:title="@string/settings_about_share_title"
-                    android:key="@string/settings_about_share_key"
-                    app:summary="@string/settings_about_share_summary"/>
-        <Preference app:title="@string/settings_about_rate_title"
-                    android:key="@string/settings_about_rate_key"
-                    app:summary="@string/settings_about_rate_summary"/>
-        <Preference app:title="@string/settings_about_changelog_title"
-                    android:key="@string/settings_about_changelog_key"/>
-        <Preference app:title="@string/settings_about_version_title"
-                    android:key="@string/settings_about_version_key"
-                    app:summary="@string/settings_about_version_summary"/>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <haivo.us.crypto.preferences.FrequencyPickerDialogPreference android:title="@string/settings_check_global_frequency_title"
+        android:key="@string/settings_check_global_frequency_key"
+        android:dialogTitle="@string/settings_check_global_frequency_title"/>
+    <Preference android:title="@string/settings_notifications_category_title"
+        android:key="@string/settings_notifications_category_key"/>
+    <Preference android:title="@string/settings_sounds_category_title"
+        android:key="@string/settings_sounds_category_key"/>
+    <Preference android:title="@string/settings_tts_category_title" android:key="@string/settings_tts_category_key"/>
+    <PreferenceCategory android:title="@string/settings_about_category_title">
+        <Preference android:title="@string/settings_about_report_issue_title"
+            android:key="@string/settings_about_report_issue_key"
+            android:summary="@string/settings_about_report_issue_summary"/>
+        <Preference android:title="@string/settings_about_github_title"
+            android:key="@string/settings_about_github_key"/>
+        <Preference android:title="@string/settings_about_donate_title"
+            android:key="@string/settings_about_donate_key"
+            android:summary="@string/settings_about_donate_summary"/>
+        <Preference android:title="@string/settings_about_share_title"
+            android:key="@string/settings_about_share_key"
+            android:summary="@string/settings_about_share_summary"/>
+        <Preference android:title="@string/settings_about_rate_title"
+            android:key="@string/settings_about_rate_key"
+            android:summary="@string/settings_about_rate_summary"/>
+        <Preference android:title="@string/settings_about_changelog_title"
+            android:key="@string/settings_about_changelog_key"/>
+        <Preference android:title="@string/settings_about_version_title"
+            android:key="@string/settings_about_version_key"
+            android:summary="@string/settings_about_version_summary"/>
     </PreferenceCategory>
 </PreferenceScreen>
