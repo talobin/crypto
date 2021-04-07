@@ -20,6 +20,7 @@ public class Okcoin extends Market {
         CURRENCY_PAIRS = new LinkedHashMap();
         CURRENCY_PAIRS.put(VirtualCurrency.BTC, new String[]{Currency.CNY, Currency.USD});
         CURRENCY_PAIRS.put(VirtualCurrency.LTC, new String[]{Currency.CNY, Currency.USD});
+        CURRENCY_PAIRS.put(VirtualCurrency.ETH, new String[]{Currency.CNY, Currency.USD});
     }
 
     public Okcoin() {
